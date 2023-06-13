@@ -1,0 +1,210 @@
+html body{
+    top:0;
+    right:0;
+    left:0;
+    scroll-behavior: smooth;
+    background-image: linear-gradient(to right top, #ffffff, #f8f9fe, #f0f3fc, #e5eefb, #d9eaf9, #d9eaf9, #d9eaf9, #d9eaf9, #e5eefb, #f0f3fc, #f8f9fe, #ffffff);
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration: solid underline orange;
+    text-shadow:2px #000000;
+}
+h4{
+    font-family: serif;
+}
+h2{
+    font-family: serif;
+    text-decoration: solid underline rgb(28, 20, 20);
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 5px black;
+    top:0;
+    right:0;
+    left:0;
+    padding:0 60px;
+    height:50px;
+    position: sticky;
+    background-image: linear-gradient(to right top, #c7b5d9, #bec0e0, #bbcbe2, #bfd3e1, #c9dae0, #c1d9e2, #b9d8e3, #b0d7e5, #98ccf0, #95bcf9, #a9a8f8, #ca8de7);
+    cursor: pointer;
+}
+#bar{
+    display :flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#bar li{
+    list-style: none;
+    padding:0 20px;
+    position: relative;
+}
+#bar li a{
+    text-decoration: none;
+    color:black;
+}
+#bar li a:hover,
+#bar li a.active{
+    color:rgb(154, 74, 17)
+}
+#bar li a:hover::after{
+    content : "";
+    width:45%;
+    height:1px;
+    background: rgb(154, 74, 17);
+    position:absolute;
+    bottom :-3px;
+    left :20px;
+}
+#intro{
+    margin-top:120px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   padding:20px;
+}
+#intro img{
+    border:1px solid black;
+    width:220px;
+    height:220px;
+    border-radius: 220px;
+}
+#intro .button{
+    margin-top:-25px;
+    width:250px;
+    height:30px;
+    margin-left:38px;
+    padding-right:80px;
+    display:flex;
+    width:4px;
+    column-gap: 20px;
+}
+#aboutme{
+    margin-top:120px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.details2{
+    width:700px;
+}
+.introduction {
+    margin : 40px 100px;
+    width:460px;
+}
+#det{
+    margin-left:-80px;
+    margin-top:40px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+#det li{
+    list-style: none;
+    font-size: 17px;
+}
+.skills{
+    background-image: linear-gradient(to right top, #18161b, #1c1a1e, #201e21, #242225, #282628, #272527, #262327, #252226, #1f1c21, #1a151c, #140d17, #0c0212);
+    color:white;
+}
+.skills-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+#aboutme .fa-brands{
+    font-size: 40px;
+}
+#project{
+   display:flex;
+   align-items: center;
+   flex-direction: column;
+   row-gap: 150px;
+   margin-top: 160px;
+}
+#project img{
+    width:80%;
+    height : 210px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px rgb(34, 23, 34);
+   
+}
+.prj1{
+  display:grid;
+ grid-template-columns: 40% 50%;
+ gap:30px;
+}
+
+.details3{
+   width:500px;
+   height:200px;
+}
+
+#project .code{
+    margin-top: -10px;
+    display:flex;
+    column-gap: 50px;
+}
+#project .codes{
+    display: flex;
+    column-gap: 5px;
+}
+#project .codes button{
+    color:black; border-radius: 4px;background-image: linear-gradient(to right top, #a169d9, #9e62d0, #9b5ac8, #9853bf, #954bb7, #9649b8, #9748ba, #9846bb, #9d4ac6, #a24ed2, #a752dd, #ab57e9);
+}
+#project .codes button:hover{
+    box-shadow: 2px 2px 4px black;
+}
+#certificates{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap :50px;
+    padding:160px;
+}
+.cer1{
+    border: 4px solid rgb(65, 64, 64);
+    height:300px;
+    padding:15px;
+    background-color: rgb(65, 64, 64);
+    transition: 0.2s;
+}
+.cer1:hover{
+    box-shadow: 10px 10px 10px rgba(41, 41, 41, 0.571);
+    transform: scale(1.5);
+    padding:2px;
+}
+.cer1 img{
+    width:100%;
+    height: 300px;
+}
+.cer1 h3{
+    text-align: center;
+    background:url("");
+}
+#contact{
+    margin-top:100px;
+    width:60%;
+}
+#contact h2{
+    text-decoration:underline orange;
+    padding-left: 130px;
+    margin-bottom: -40px;
+}
+.details4{
+   display: flex;
+    padding: 40px 100px;
+}
+    @media(max-width:1200px){
+        .cer1{
+            height:200px;
+        }
+        .cer1 img{
+            height: 200px;
+        }
+    }
+    
+
