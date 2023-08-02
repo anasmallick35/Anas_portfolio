@@ -3,7 +3,7 @@ html body{
     right:0;
     left:0;
     scroll-behavior: smooth;
-    background-image: linear-gradient(to right top, #ffffff, #f8f9fe, #f0f3fc, #e5eefb, #d9eaf9, #d9eaf9, #d9eaf9, #d9eaf9, #e5eefb, #f0f3fc, #f8f9fe, #ffffff);
+   
 }
 h1{
     font-family: 'Times New Roman', Times, serif;
@@ -12,7 +12,8 @@ h1{
     text-shadow:2px #000000;
 }
 h4{
-    font-family: serif;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 520;
 }
 h2{
     font-family: serif;
@@ -29,13 +30,14 @@ h2{
     padding:0 60px;
     height:50px;
     position: sticky;
-    background-image: linear-gradient(to right top, #c7b5d9, #bec0e0, #bbcbe2, #bfd3e1, #c9dae0, #c1d9e2, #b9d8e3, #b0d7e5, #98ccf0, #95bcf9, #a9a8f8, #ca8de7);
+    background: white;
     cursor: pointer;
 }
 #bar{
     display :flex;
     align-items:center;
     justify-content: space-around;
+    margin-right:130px;
 }
 #bar li{
     list-style: none;
@@ -71,6 +73,11 @@ h2{
     width:220px;
     height:220px;
     border-radius: 220px;
+}
+#element{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 18px;
 }
 #intro .button{
     margin-top:-25px;
@@ -161,7 +168,7 @@ h2{
 }
 #certificates{
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
     gap :50px;
     padding:160px;
 }
@@ -176,6 +183,7 @@ h2{
     box-shadow: 10px 10px 10px rgba(41, 41, 41, 0.571);
     transform: scale(1.5);
     padding:2px;
+    
 }
 .cer1 img{
     width:100%;
@@ -195,7 +203,10 @@ h2{
     margin-bottom: -40px;
 }
 .details4{
-   display: flex;
+    width:100%;
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr;
+   gap:80px;
     padding: 40px 100px;
 }
     @media(max-width:1200px){
