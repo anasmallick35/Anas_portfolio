@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <link rel = "stylesheet" href = "style.css">
+        
     </head>
     <body>
         <section id = "header">
@@ -23,11 +24,12 @@
 
             <div class = "details">
                 <div class = "introduction">
-                <h2>FRONT-END DEVELOPER</h2>
-               
-                <h4>
-                    Hello, I'm Md Anas, and I am a passionate frontend developer with a knack for creating visually appealing and user-friendly web experiences. Through my portfolio, I aim to showcase my skills, creativity, and dedication to crafting exceptional websites.
-                </h4>
+                <span><h3 style = "margin-bottom: -20px; margin-left:5px;">Hello I'm</h3></span>
+                <span><h1>ANAS MALLICK</h1></span>
+                <span id="element"></span>
+                <span><h4>
+                     Through my portfolio, I aim to showcase my skills, creativity, and dedication to crafting exceptional websites.
+                </h4></span>
             </div>
                 <div class = "button">
                     <a href = "assets/images/Resume.pdf"><button style = " margin-left: 64px;background-image: linear-gradient(to right top, #a169d9, #9e62d0, #9b5ac8, #9853bf, #954bb7, #9649b8, #9748ba, #9846bb, #9d4ac6, #a24ed2, #a752dd, #ab57e9);border-radius: 4px;box-shadow:2px 2px 3px black;margin-top:-25px;height :30px;"><B>Resume</B></button></a>
@@ -94,7 +96,7 @@
                 </div>
             </div>
             <div class = "prj1">
-                <a href = "https://anasmallick35.github.io/landing-page.github.io/"><img src = "assets/images/prj2pic.png"></a>
+                <img src = "assets/images/prj2pic.png">
                 <div class = details3>
                     <span><h2>Registration Website</h2>
                     <h4>I have developed a user-friendly and responsive registration website using React, JavaScript, CSS, and HTML. This project holds a special place for me as it marks my first endeavor as a frontend developer.The website allows users to easily register their data, including their email and other necessary information. With its responsive design, it seamlessly adapts to different screen sizes and devices, ensuring a smooth user experience across platforms.
@@ -104,7 +106,7 @@
                     <i class="fa-brands fa-github"></i><button><B>Codes</B></button> 
                     </div>
                     <div class = "codes">
-                        <button><B>Visit</B></button>
+                        <a href = "https://anasmallick35.github.io/landing-page.github.io/"><button><B>Visit</B></button></a>
                         <i class="fa-solid fa-arrow-up-right-from-square" style="color: #010813;"></i>
                     </div>
                     </div>
@@ -138,13 +140,17 @@
                 </div>
 
                 <div class = "cer1">
-                    <img src = "assets/images/cert3.png">
+                    <a href = "https://www.udemy.com/certificate/UC-4bafae7c-e42a-4953-9139-d684862f75c1/"><img src = "assets/images/cert3.png"></a>
                     <h2 style = "text-decoration:none;">Data Structures</h2>
                 </div>
 
                 <div class = "cer1">
                     <img src = "assets/images/cert2.png">
                     <h2 style = "text-decoration:none;">Internshala Partner Program</h2>
+                </div>
+                <div class = "cer1">
+                    <a href = "https://cert.devtown.in/verify/2i0L8e"><img src = "assets/images/cert4.png"></a>
+                    <h2 style = "text-decoration:none;">Microsoft Learn</h2>
                 </div>
             </div>
         </section>
@@ -162,5 +168,12 @@
                 </ul>
             </div>
         </section>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element',{
+      strings: ['WEB DEVELOPER','UG STUDENT', 'FRONT-END DEVELOPER'],
+      typeSpeed:50,
+    });
+  </script>
     </body>
 </html>
