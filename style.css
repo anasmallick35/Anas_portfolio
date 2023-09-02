@@ -166,6 +166,8 @@ h2{
 }
 #project .codes button{
     color:black; border-radius: 4px;background-image: linear-gradient(to right top, #a169d9, #9e62d0, #9b5ac8, #9853bf, #954bb7, #9649b8, #9748ba, #9846bb, #9d4ac6, #a24ed2, #a752dd, #ab57e9);
+    width:80px;
+    height: 30px;
 }
 #project .codes button:hover{
     box-shadow: 2px 2px 4px black;
